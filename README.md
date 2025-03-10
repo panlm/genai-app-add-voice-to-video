@@ -1,3 +1,8 @@
+# First of ALL
+
+**This is a sample code created by GenAI, just use CLINE in VSCODE to describe functional and let LLM to build this app**
+
+
 # Product Video Creator
 
 Product Video Creator is a Streamlit application that allows users to generate product videos by combining text-to-speech audio with demo videos. This tool is perfect for creating quick product demonstrations or explanations in either English or Chinese.
@@ -12,6 +17,14 @@ Product Video Creator is a Streamlit application that allows users to generate p
    - Upload custom audio files (MP3) and demo videos (MP4, MOV, AVI)
    - Merge audio and video files
    - Download the final product video
+
+## Application Screenshots
+
+![Text-to-Speech Generation Interface](./image1.png)
+*Text-to-Speech Generation Interface: Users can input text and select language for audio generation*
+
+![Audio and Video Merging Interface](./image2.png)
+*Audio and Video Merging Interface: Users can upload audio and video files for merging*
 
 ## Prerequisites
 
@@ -70,8 +83,6 @@ Note: Never commit your `.env` file to version control. Add it to your `.gitigno
 ## Security Note
 
 This application requires AWS credentials to function. Ensure that you keep your AWS credentials secure and do not share them publicly. It's recommended to use IAM roles with the principle of least privilege when deploying this application in a production environment.
-
-
 
 
 # Refer
