@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from botocore.exceptions import ClientError
 
 # Load environment variables
-load_dotenv()
+#load_dotenv()
 
 # Function to check if AWS credentials are set
 def check_aws_credentials():
